@@ -1,5 +1,18 @@
+* {
+  margin: 0px;
+  font-size: 0;
+}
+
 body {
-  background-color: green;
+  width: 960px;
+}
+
+img {
+  outline: solid 2px black;
+}
+
+#a {
+  text-align: left;
 }
 
 #b {
@@ -7,15 +20,27 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
-  #e {
-    outline: solid blue 5px;
-    width: 240px;
-    height: 250px;
+  body {
+    width: 480px;
   }
 
-  #f {
-    outline: solid purple 5px;
-    width: 240px;
-    height: 250px;    
+  img {
+    display: block;
   }
+
+  #a {
+    width: 480px;
+    height: 75px;
+  }
+
+  #b {
+    width: 480px;
+    height: 150px;
+  }
+
+  /* .c-d {
+    width: 480px;
+    height: 125px;
+  } */
+
 }
