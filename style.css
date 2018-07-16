@@ -1,0 +1,21 @@
+body {
+  background-color: green;
+}
+
+#b {
+  float: left;
+}
+
+@media only screen and (max-width: 480px) {
+  #e {
+    outline: solid blue 5px;
+    width: 240px;
+    height: 250px;
+  }
+
+  #f {
+    outline: solid purple 5px;
+    width: 240px;
+    height: 250px;    
+  }
+}
